@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.card {
+  border: 1px solid black;
+  height: 220px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(187, 245, 226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+}
+
+.aboutTask h2 {
+  font-size: 24px;
+}
+
+.aboutTask p {
+  font-size: 17px;
+}
+
+.aboutTask select,
+select {
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttons button,
+button {
+  padding: 8px 20px;
+  font-size: 15px;
+  border: none;
+  background-color: #278bd6;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.buttons button:last-child {
+  background-color: rgb(227, 84, 84);
+}
+
+.appContainer {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.tasks {
+  /* background-color: chocolate; */
+  margin: 25px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.appContainer .inputContainer {
+  max-height: 10vh;
+  width: 100%;
+  background-color: rgb(173, 221, 231);
+  padding: 4vh 0;
+  text-align: center;
+}
+.appContainer .inputContainer input {
+  margin-right: 15px;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #278bd6;
+}
+
+.appContainer .inputContainer button {
+  background-color: #278bd6;
+  padding: 6px 25px;
+}
+
+.appContainer .filter {
+  /* background-color: chartreuse; */
+  text-align: center;
+  margin: 25px;
+}
+
+.appContainer > select {
+  width: 130px;
+  height: 35px;
+}
